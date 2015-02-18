@@ -1,0 +1,261 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BA91B85-A434-72A1-83A7-8D6AE99BCF6F" name="SIM_person">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:26:17 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="6BA31C16-538E-E248-E8A1-0452FA35D6F6">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:26:50 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="5AB4B4F9-F513-20FB-2396-8857C293838B">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 20:35:22 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="23FD74BC-C45B-C53F-0409-CD02E78443BA">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:27:19 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="7FBCA98E-5297-DAF3-55B5-65252E7D834C">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:27:38 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="A90D4667-9E7A-3B69-81E2-01BA10541160">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:27:53 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="D1C98725-BC22-43D8-F6A6-A983F0569EF2">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:28:11 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="BCF1EA3F-7F74-940C-0579-0AA3406F35E7">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:28:24 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="A261C1BE-7FE8-1220-7052-401AFB03BD3E">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:28:41 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="21AD19AC-12D3-4F88-40DB-D14FB1BB9BCA">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:28:54 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="1C5A47CB-7F51-D35C-1D87-4BD6E305E3DE">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:29:05 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="B249F6BA-59E3-0C15-0EE4-F36D3276B840">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:40:56 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="122BAC87-CC16-7BFD-6029-7422605D06F9">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:41:08 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="E087935F-34BD-B330-765B-3C53A33E17D9">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:41:25 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="94600740-8013-F362-5AEA-ADE99F094C1E">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:41:39 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="ACFB474D-EA87-9419-E71B-45CF324D3330">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:42:23 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="97F71D1A-40E5-3120-0AAC-00D44B56402E">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:42:43 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="68E3689D-7732-AC73-5796-C3756FBD2BEE">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:56:58 UTC</createdTime>
+<generatorID>2FF82F59-46B9-BE93-A1DE-94319E55C7EC</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28163123-CF17-52F7-BCB5-26CC43256B1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="8D381803-5F75-445F-A4AC-3D9FE18529C1">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 22:10:47 UTC</createdTime>
+<generatorID>372BCF71-2D14-C419-742E-4D5766516BE3</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28163123-CF17-52F7-BCB5-26CC43256B1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B0AF454-DB8D-21C6-2937-8C496533D849" name="{entity} PK">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 19:27:06 UTC</createdTime>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<engineerTo>
+<item key="ADDB30BF-2CDE-E538-0301-1B002243050E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BA31C16-538E-E248-E8A1-0452FA35D6F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

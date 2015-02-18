@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71927F2C-7973-023C-6070-0E8B87DB491B" name="SIM_dept">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 20:36:32 UTC</createdTime>
+<generatorID>A291E800-3603-5912-19F5-ECB78E37C483</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="80DAF1D4-5A19-825F-60EE-C4ECB57ACA16">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 20:36:32 UTC</createdTime>
+<generatorID>28163123-CF17-52F7-BCB5-26CC43256B1B</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4A02064F-4C51-7C35-F2F9-B471074ABB8F">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 20:36:32 UTC</createdTime>
+<generatorID>C19F89A2-78DB-2F35-EC47-B6E1947C19C8</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="86AC1BC4-B9FE-B0C0-85F5-B1B9EEDA86CA">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 20:36:32 UTC</createdTime>
+<generatorID>1925A375-67D7-094A-3552-4B5B3AFE74F4</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3D30F90-2F2A-7B1B-93E9-6BD8F009A1F7" name="SIM_dept_PK">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-16 20:36:32 UTC</createdTime>
+<generatorID>15AB85D9-96EF-E191-3C76-D2E553C4ACC4</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80DAF1D4-5A19-825F-60EE-C4ECB57ACA16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

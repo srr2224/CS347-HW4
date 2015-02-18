@@ -1,0 +1,101 @@
+DROP VIEW SIM_project_emp_view ;
+DROP VIEW SIM_manager_view ;
+
+create view SIM_project_emp_view as
+SELECT person_id, type, name, ssnum, gender, birth_date, address, city, state,
+  zip, hire_date, salary, status, title, rating, SIM_dept_dept_id 
+FROM SIM_person
+WHERE TYPE = 'Project Emp' ;
+
+create or replace TRIGGER SIM_project_emp_trigger
+     INSTEAD OF insert ON SIM_project_emp_view
+     FOR EACH ROW
+BEGIN
+     insert into SIM_person(
+        person_id, 
+        type, 
+        name, 
+        ssnum, 
+        gender, 
+        birth_date, 
+        address, 
+        city, 
+        state,
+        zip, 
+        hire_date, 
+        salary, 
+        status, 
+        title, 
+        rating, 
+        SIM_dept_dept_id)
+     VALUES (
+        :new.person_id,
+        'Project Emp',
+        :new.name,
+        :new.ssnum, 
+        :new.gender, 
+        :new.birth_date, 
+        :new.address, 
+        :new.city, 
+        :new.state,
+        :new.zip, 
+        :new.hire_date, 
+        :new.salary, 
+        :new.status, 
+        :new.title, 
+        :new.rating, 
+        :new.SIM_dept_dept_id) ;
+END;
+/
+
+create view SIM_manager_view as
+SELECT person_id, type, name, ssnum, gender, birth_date, address, city, state,
+  zip, hire_date, salary, status, title, bonus, SIM_dept_dept_id1 
+FROM SIM_person
+WHERE TYPE = 'Manager' ;
+
+create or replace TRIGGER SIM_manager_trigger
+     INSTEAD OF insert ON SIM_manager_view
+     FOR EACH ROW
+BEGIN
+     insert into SIM_person(
+        person_id, 
+        type, 
+        name, 
+        ssnum, 
+        gender, 
+        birth_date, 
+        address, 
+        city, 
+        state,
+        zip,  
+        hire_date, 
+        salary, 
+        status, 
+        title, 
+        bonus, 
+        SIM_dept_dept_id1)
+     VALUES (
+        :new.person_id,
+        'Manager',
+        :new.name,
+        :new.ssnum, 
+        :new.gender, 
+        :new.birth_date, 
+        :new.address, 
+        :new.city, 
+        :new.state,
+        :new.zip, 
+        :new.hire_date, 
+        :new.salary, 
+        :new.status, 
+        :new.title, 
+        :new.bonus, 
+        :new.SIM_dept_dept_id1) ;
+END;
+/
+
+
+
+
+

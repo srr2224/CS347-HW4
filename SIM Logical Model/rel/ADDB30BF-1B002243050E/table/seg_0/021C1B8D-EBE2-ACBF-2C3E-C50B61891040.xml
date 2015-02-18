@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="021C1B8D-EBE2-ACBF-2C3E-C50B61891040" name="SIM_p2p">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-17 22:44:23 UTC</createdTime>
+<generatorID>664C19B3-8ACD-ACBD-6F3E-12450ED61397</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="p2p_id" id="73FCF627-9463-82A4-1FFC-05237FF86564">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-17 22:44:23 UTC</createdTime>
+<generatorID>30E8F592-5F15-F0CF-3325-F5C8983338D1</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_person_person_id" id="7980CC29-A4DD-37E1-6502-3186CD336153">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-17 22:44:23 UTC</createdTime>
+<generatorID>431876AE-594D-0EF2-97F7-85E8E1BE43DD</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C77F6392-AB62-A131-8215-01E02712201C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E282781F-DF8F-6629-B662-793617EC9147" referredColumn="C77F6392-AB62-A131-8215-01E02712201C"/>
+</associations>
+</Column>
+<Column name="SIM_project_project_id" id="81F1E612-4235-3B21-5E0F-975A96DBC49D">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-17 22:44:23 UTC</createdTime>
+<generatorID>32B252C4-6C94-2192-6594-087544F81713</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>862566B3-16DD-3E33-A102-60E6AEB26FC6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC868E8D-D82E-4DBB-557C-AE970B0E628E" referredColumn="862566B3-16DD-3E33-A102-60E6AEB26FC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB55EA56-3359-0766-DE3C-F3B7F7B20C19" name="SIM_p2p_PK">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-17 22:44:23 UTC</createdTime>
+<generatorID>D6853C6E-08CC-916E-1777-EBE04A0D6AD8</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73FCF627-9463-82A4-1FFC-05237FF86564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60D301FD-0BDC-FB3E-19EC-083048BBF44B" name="SIM_p2p_SIM_person_FK">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-17 22:44:23 UTC</createdTime>
+<generatorID>E2E1F9F8-D051-61DA-2E1F-B5F5FDA6E9D6</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7980CC29-A4DD-37E1-6502-3186CD336153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33865B79-73F2-BACA-4EA7-66DC7AE9C3FC" name="SIM_p2p_SIM_project_FK">
+<createdBy>Steven</createdBy>
+<createdTime>2015-02-17 22:44:23 UTC</createdTime>
+<generatorID>3CCD104C-22BC-060C-A529-BCA37046E61D</generatorID>
+<ownerDesignName>SIM Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F1E612-4235-3B21-5E0F-975A96DBC49D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
